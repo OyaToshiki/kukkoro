@@ -4,6 +4,7 @@
 
 # クイックスタート（herokuにデプロイする場合）
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/reverinu/kukkoro)
 ```
 git clone https://github.com/k-nakayama-pg/kukkoro-bot.git
 git remote add heroku <Your_heroku_app_git_url>
