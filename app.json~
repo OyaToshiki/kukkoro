@@ -1,5 +1,5 @@
 {
-    "name": "kukkoro bot - LINE Messaging API",
+    "name": "kukkoro",
     "description": "This is a sample application for the LINE Messaging API",
     "keywords": ["chatbot", "line", "java"],
     "env": {
