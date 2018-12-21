@@ -24,8 +24,8 @@ app.post('/callback', function(req, res) {
                 if ((req.body['events'][0]['type'] != 'message') || (req.body['events'][0]['message']['type'] != 'text')) {
                     return;
                 }
-                // 「くっころ」という単語がテキストに含まれている場合のみ返事をする
-                if (req.body['events'][0]['message']['text'].indexOf('くっころ') == -1) {
+                // 「はいそれまでよ」という単語がテキストに含まれている場合のみ返事をする
+                if (req.body['events'][0]['message']['text'].indexOf('はいそれまでよ') == -1) {
                     return;
                 }
 
