@@ -25,7 +25,7 @@ app.post('/callback', function(req, res) {
                     return;
                 }
                 // 「くっころ」という単語がテキストに含まれている場合のみ返事をする
-                if (req.body['events'][0]['message']['text'].indexOf('くっころ') == -1) {
+                if (req.body['events'][0]['message']['text'].indexOf('はい。それまでよ。') == -1) {
                     return;
                 }
 
